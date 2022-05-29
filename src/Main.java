@@ -19,7 +19,7 @@ public class Main {
         //Второй массив
         double[] secondArray = {1.57, 7.654, 9.986};
         for (int i = 0; i < 3; i++) {
-            System.out.print(secondArray[i] == secondArray[secondArray.length - 1] ? secondArray[i] : secondArray[i] + ",");
+            System.out.print(i == secondArray.length - 1 ? secondArray[i] : secondArray[i] + ",");
         }
         System.out.println();
 
@@ -48,7 +48,7 @@ public class Main {
         //Второй массив
         double[] secondArray = {1.57, 7.654, 9.986};
         for (int i = secondArray.length - 1; i >= 0; i--) {
-            System.out.print(secondArray[i] == secondArray[0] ? secondArray[i] : secondArray[i] + ",");
+            System.out.print(i==0 ? secondArray[i] : secondArray[i] + ",");
         }
         System.out.println();
 
